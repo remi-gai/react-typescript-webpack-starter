@@ -1,9 +1,7 @@
-import * as React from 'react';
+import React, { useState } from "react";
 
-function App(props: any) {
-  return (
-  <div>{props.text}</div>
-  )
+function App() {
+  return <div>test</div>;
 }
 
 export default App;
